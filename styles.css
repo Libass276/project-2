@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff5e6;
+}
+header {
+    background-color: #ff5733;
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #444;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+}
+.item {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+footer {
+    background: #444;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;}
+.menu {
+    color: #ff5733;
+}
+.shawarma-btn {
+    background-color: #d9534f;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.shawarma-btn:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+}
+
